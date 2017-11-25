@@ -58,3 +58,45 @@ img{max-width: 100%;}
 .social-icons a:last-child{margin-right: 0;}
 .social-icons a:hover {color:rgb(255,255,255);}
 .copyright {margin-top: 2%; color: rgba(255,255,255,0.7);}
+
+/*======MOBILE FIRST======*/
+/*======SMALL DEVICES - SMARTPHONES======*/
+@media screen and (min-width: 480px){
+.logo{width: 214px;  background: url('../../img/logo.png') center center/214px no-repeat; }  
+.btn{font-size: 2em;}
+}
+
+/*======MOBILE FIRST======*/
+/*======SMALL DEVICES - TABLETS======*/
+@media screen and (min-width: 768px){
+.servico{width: 49%; float: left; margin-right: 2%;}
+.servico:nth-child(2){margin-right: 0;}
+.newslleter h2{font-size: 2em;}
+.newslleter h3{font-size: 1.5em;}
+.newslleter input{width: 70%; padding: 2%; float: left; margin-right: 1%;}
+.newslleter button{width: 29%; padding: 2%; float: right; margin-top: 0;}
+}
+
+/*======MOBILE FIRST======*/
+/*======MEDIUN DEVICES - TABLETS & DESKTOPS======*/
+@media screen and (min-width: 960px){
+.title{width: 65%; float: left; text-align: left;}
+.buttons{width: 30%; float: right; margin-top: 0;}
+.servico{width: 32%;}
+.servico:nth-child(2){margin-right: 2%;}
+.servico:nth-child(3){margin-right: 0;}
+.newslleter input{width: 60%; float: none;}
+.newslleter button{width: 20%; float: none;}
+}
+
+/*======MOBILE FIRST======*/
+/*======LARGE DEVICES - WIDE SCREENS======*/
+@media screen and (min-width: 1280px){
+.btn-menu{display: none;}
+.btn-close{display: none;}
+.menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #f5f5f5; display: block !important; position: static;}
+.menu li{padding: 0; float: left;}
+.menu li a{color: #130400; font-size: 1em; padding: 15px;}
+.menu li a:hover{border: none; color: #da6709}
+}
+

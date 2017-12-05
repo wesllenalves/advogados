@@ -1,0 +1,193 @@
+/*=======RESET=======*/
+*{margin:0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'Lato', sans-serif;}
+
+body{background-color: #f5f5f5; }
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+
+/*======CONTEAINER======*/
+.container{width: 100%; float: left; padding: 3% 4%; text-align: center;}
+
+/*======BG COLORS======*/
+.bg-gradient{background: linear-gradient(to right,#ce2e3c,#da6709);}
+.bg-black{background-color: #130400;}
+.bg-white{background-color: #fff;}
+
+/*======CABEÇALHO======*/
+.cabecalho{width: 100%; height: 75px; background:-webkit-gradient(radial, 165 0, 0, 220 -257, 465, from(#4081C9), to(#4B9157));}
+.logo{width: 56px; height: 56px; float: left; background: url('../../img/logo-D.svg') center center/56px no-repeat; font-size: 0; margin-top: 3%;}
+.btn-menu{width: 56px; height: 56px; float: right; text-align: center; color: #FFF; border-radius: 56px; cursor: pointer; margin-top: 3%; margin-right: 2%;}
+
+/*======MENU======*/
+.menu{display: none; width: 100%; height: 100%; position:fixed; background-color: rgba(0,0,0,0.9); top:0 ; left: 0; }
+.btn-close{font-size: 1.5em; color: #fff; float: right; cursor: pointer; margin: 2% 3% 0 0;}
+.menu ul{width: 100%; float: left; text-align: center;}
+.menu li{padding: 1.5%; }
+.menu li a{font-size: 2em; color: #fff; padding: 1.5% 3%;}
+.menu li a:hover{border: 1px solid #da6709; }
+
+/*======BANNER======*/
+.banner{ background: url("../../img/bg.jpg") no-repeat fixed;}
+.title{width: 100%;}
+.title h2{font-size: 2.5em; color: #FFF; font-weight: 700;}
+.title h3{font-size: 1.5em; color: #fff; text-align: justify;}
+.buttons{width: 100%; margin-top: 2%;}
+.buttons i{float: right;}
+.btn{width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; border-radius: 10px;}
+.btn-cadastrar{ color: #130400;}
+.btn-sobre{ color: #FFF; margin-top: 2%;}
+
+
+/*======SERVICO======*/
+.servico{width: 100%; text-align: left; border-radius: 7px; margin-bottom: 3%;}
+.servico img{ border-radius: 7px 7px 0 0; }
+.inner{padding: 7%;}
+.inner a{font-size: 1.4em; color:#130400; font-weight: 700; }
+.inner h4{font-size: 1.2em; color:#130400; margin-top: 2%;}
+.inner p{margin-top: 6%; color:#130400; line-height: 1.4em; text-align: justify;}
+
+/*======PERFIL======*/
+.formulario-perfil{width: 100%;}
+.formulario-perfil input{width: 90%; height: 35px; border: 1px solid black; padding: 5%;}
+.formulario-perfil span{float: left; margin-left: 5%; font-size: 1em; margin-top: 10%; font-weight: 600;}
+.text-center{text-align: center;}
+.imagem{width: 100%; border: 1px solid #f5f5f5; height: 120px; border: 1px solid black; }
+.imagem-perfil{width: 120px; height: 120px; background-color: rgba(0,0,0,0.10); float: left;  position: relative; border: 1px solid black; }
+.imagem h4,h5{ font-weight: 600; border: 1px solid black; }
+.form{border: 1px solid #f5f5f5; margin-top: 10px;}
+.envia{width: 100%; border: 1px solid black; height: 50px; border: 1px solid black; }
+.envia button{margin-top: 1%; margin-left: 0%; border: 1px solid black; width: 20%;  padding: 2%; position: relative;}
+
+
+/*======NWESLETTER======*/
+.newslleter h2{font-size: 1.5em; color: #fff; font-weight: 700; }
+.newslleter h3{color: #fff;}
+.newslleter form{margin-top: 2%; }
+.newslleter input{width: 100%;  color: #fff; border: 1px solid rgba(255,255,255,0.3); padding: 5%; border-radius: 5px;}
+.newslleter button{width: 100%;  color: #130400; padding: 5%; border-radius: 5px; cursor: pointer; margin-top: 2%;}
+
+/*======RODA PÉ======*/
+.social-icons a {font-size: 1.5em; color:rgba(255,255,255,0.7); margin-right: 3%;}
+.social-icons a:last-child{margin-right: 0;}
+.social-icons a:hover {color:rgb(255,255,255);}
+.copyright {margin-top: 2%; color: rgba(255,255,255,0.7);}
+
+
+
+
+
+
+
+
+
+
+
+
+/*======MOBILE FIRST======*/
+/*======SMALL DEVICES - SMARTPHONES======*/
+@media screen and (min-width: 320px){
+/*=====banner===*/
+.title h2{text-align: center; font-size: 1.8em; font-weight: 700;}
+/*=====segundo menu===*/
+#nav-2 .navbar-2{background-color: rgba(0,0,0,0.8);}
+#nav-2 .navbar-2 ul li:nth-child(1){margin-left:10px; }
+/*=====pedidos===*/
+.pedidos .pedido-footer img{margin:5% 0 0 1%;}
+.pedidos .pedido-footer #nome{font-size: 12px; margin-top: 9%;}
+.pedidos .pedido-footer a{margin: 9% 0 0 32%; font-size: 0.7em;}
+.pedidos .pedido-footer button{font-size: 0.7em; margin: 8% 4% 0 0;}
+.logo{margin-left: 2%;}
+.ultimo{margin-bottom: 5%;}
+}
+/*======MOBILE FIRST======*/
+/*======SMALL DEVICES - SMARTPHONES======*/
+@media screen and (min-width: 480px){
+
+.logo{width: 214px;  background: url('../../img/logo.png') center center/214px no-repeat; margin-left: 5%;}  
+.btn{font-size: 2em;}
+/*======PEDIDOS======*/
+.pedido-cabecalho{ height: 40%;}
+.pedidos { width: auto; height: auto; }
+.pedidos .pedido-footer a{margin-left: 0;}
+.pedidos .pedido-footer button{}
+}
+
+/*======MOBILE FIRST======*/
+/*======SMALL DEVICES - TABLETS======*/
+@media screen and (min-width: 768px){
+.btn-menu{margin-top:1%; }
+.servico{width: 49%; float: left; margin-right: 2%;}
+.servico:nth-child(2){margin-right: 0;}
+.newslleter h2{font-size: 2em;}
+.newslleter h3{font-size: 1.5em;}
+.newslleter input{width: 70%; padding: 2%; float: left; margin-right: 1%;}
+.newslleter button{width: 29%; padding: 2%; float: right; margin-top: 0;}
+
+/*======PEDIDOS======*/
+.pedidos { width: auto; height: auto; }
+.pedidos .caixa{ width: 70%; height: 120px;  border: 2px solid black; margin-left: 5%;}
+.pedidos .pedido-cabecalho h4{ font-size: 2em; }
+.pedidos .pedido-cabecalho span{font-size: 1em;}
+.pedidos .pedido-footer img{width: 56px; height: 56px;  margin: 1% 0 0 2%; }
+.pedidos .pedido-footer #nome{ width: 32%; height: 20px;  position: absolute; margin: 3% 0 0 1%; font-size: 1em;}
+.pedidos .pedido-footer a{ margin-left: 20%;  margin-top: 3%; font-size: 1em;}
+.pedidos .pedido-footer button{ margin-top: 3%; margin-right: 2%; padding: 2% 4%; font-size: 1em;}
+}
+
+/*======MOBILE FIRST======*/
+/*======MEDIUN DEVICES - TABLETS & DESKTOPS======*/
+@media screen and (min-width: 960px){
+.title{width: 65%; float: left; text-align: left;}
+.buttons{width: 30%; float: right; margin-top: 0;}
+.servico{width: 32%;}
+.servico:nth-child(2){margin-right: 2%;}
+.servico:nth-child(3){margin-right: 0;}
+.newslleter input{width: 60%; float: none;}
+.newslleter button{width: 20%; float: none;}
+}
+
+/*======MOBILE FIRST======*/
+/*======LARGE DEVICES - WIDE SCREENS======*/
+@media screen and (min-width: 1280px){
+.btn-menu{display: none;}
+.btn-close{display: none;}
+.menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #f5f5f5; display: block !important; position: static;}
+.menu li{padding: 0; float: left;}
+.menu li a{color: #130400; font-size: 1em; padding: 15px;}
+.menu li a:hover{border: none; color: #da6709}
+
+}
+
+/*======PEDIDOS======*/
+.pedidos { width: 100%;  padding: 3% 4%; text-align: left; margin-bottom: 5% 0%;}
+.caixa{height: 100px;   border: 2px solid black; border-radius: 7px;}
+.pedido-cabecalho{ height: 40%;}
+.pedido-cabecalho h4{ float: left; width: 55%; margin: 0.5% 0 0 1%; }
+.pedido-cabecalho span{float: right; width: 40%; font-size: 0.8em; text-align: right; margin: 1% 1% 0 0;}
+.pedido-footer{ height: 60%;}
+.pedido-footer img{width: 36px; float: left; height: 36px; border-radius: 100%; border:1px solid black; margin: 2% 0 1% 2%; }
+.pedido-footer #nome{ width: 32%; height: 20px;  position: absolute; margin: 8% 0 0 1%; font-size: 0.8em;}
+.pedido-footer a{ margin-left: 38%; position: absolute; margin-top: 8%; font-size: 0.8em;}
+.pedido-footer button{float: right; margin-top: 6%; margin-right: 2%; cursor: pointer; border-radius: 5px; padding: 2% 3%; font-size: 0.8em;}
+
+/*======Segundo menu======*/
+#nav-2 .navbar-2 {border: 1px solid black; width: 100%; height: 100px; padding: 0; border-radius: 6px;}
+#nav-2 .navbar-2 li i{ color:rgb(255,255,255)}
+#nav-2 .navbar-2 li i:hover{ color: rgba(255,255,255,0.7);}
+#nav-2 .navbar-2 ul li a{margin-left:5%; font-size: 1.3em;}
+#nav-2 .navbar-2 ul li a {display: inline-block; color: black; text-decoration: none;}
+#nav-2{	margin-top:10%; border-radius: 0%; border: 0px; position:relative;}
+#nav-2 .navbar-2 ul li a{ color:white;}
+#nav-2 .navbar-2 ul{ padding:0px; margin:0px; list-style:none; margin-top: 0px;}
+#nav-2 .navbar-2 ul ul{	position:absolute;}
+#nav-2 .navbar-2 ul ul li{margin-top: 15px; position: relative; margin-left: 50px;}
+.drop0{	margin-left: -10px; }
+.drop1{	margin-left: -75px;}
+.drop2{	margin-left: -145px;}
+.drop3{	margin-left: -230px;}
+#nav-2 .navbar-2 ul li ul .drop1, .drop2, .drop3{overflow:hidden; display: none;}
+#menu2 ul li  a{color: black;}
+#nav-2 .navbar-2 ul ul li{  display: inline;  margin-left: 20px;}
+#nav-2 .navbar-2 ul ul li a{margin-top: -15px;	padding: 3px; width: 100%; margin-left: 0; font-size: 0.9em;}
+#nav-2 .navbar-2 ul li{	margin-left: 15%;float:left;margin-top: 20px;}
